@@ -8,4 +8,4 @@ server.o: server.c server.h
 	gcc -Wall -o server.o server.c -c -g
 
 clean:
-	rm http-server
+	rm -f http-server
